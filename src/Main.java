@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+Задание_2
         int age = 17;
         if (age >= 7 & age < 18) {
             System.out.println("Ребенок ходит в школу");
@@ -9,6 +10,14 @@ public class Main {
         }
         if (age >=24) {
             System.out.println("Человек окончил университет и ему пора искать первую работу");
+=======
+        int age = 19;
+        if (age >= 18) {
+            System.out.println("Поздравляю вы совершеннолетны!");
+        }
+        else {
+            System.out.println("Возраст совершеннолетия еще не наступил");
+
         }
     }
 }
